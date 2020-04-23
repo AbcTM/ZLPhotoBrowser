@@ -2,6 +2,157 @@
 
 -----
 
+## [3.1.4](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.1.4) (2020-04-08)
+
+#### Add
+* 添加自定义相机分辨率(320*240, 960*540);
+* 编辑视频最小允许编辑5s;
+* 添加相机是否可用检测;
+
+
+#### Fix
+* 修正拍照后图片方向. [#472](https://github.com/longitachi/ZLPhotoBrowser/issues/472);
+* 修正部分多语言错误的问题. [#469](https://github.com/longitachi/ZLPhotoBrowser/issues/469);
+
+---
+
+## [3.1.3](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.1.3) (2020-01-13)
+
+#### Add
+* 修改曝光模式;
+* 拍照界面显示 "轻触拍照，按住摄像" 提示;
+* 增加直接调用编辑图片api;
+
+---
+
+## [3.1.2](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.1.2) (2019-10-24)
+
+#### Add
+* SDWebImage 不在指定依赖版本号;
+
+---
+
+## [3.1.1](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.1.1) (2019-10-17)
+
+#### Add
+* 优化进入相册速度及从相册列表进入选择界面流程;
+* 选择相片时候添加progress;
+
+#### Fix
+* 解决原图显示0B的bug.[#349](https://github.com/longitachi/ZLPhotoBrowser/issues/349)
+* 解决视频录制小于0.3s，按照拍照返回没有图片数据的bug.[#386](https://github.com/longitachi/ZLPhotoBrowser/issues/386)
+
+---
+
+## [3.1.0](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.1.0) (2019-09-26)
+
+#### Add
+* 初步适配iOS13;
+* 修改拍摄视频时1s以下不给保存的时间点为0.3s，即自定义相机拍摄视频时0.3s以下按拍照处理;
+
+---
+
+## [3.0.7](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.0.7) (2019-09-04)
+
+#### Add
+* 网络视频播放添加进度条;
+* SDWebImage依赖升级5.1.0以上版本;
+
+#### Fix
+* 选中图片index角标bug.[#405](https://github.com/longitachi/ZLPhotoBrowser/issues/405)
+
+---
+
+
+## [3.0.6](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.0.6) (2019-07-31)
+
+#### Add
+* 添加选中图片显示index功能;
+* 新增(及修改)部分颜色api，方便修改框架内部颜色;
+*  修改框架默认风格为微信的风格; 
+* 压缩图片资源;
+
+---
+
+## [3.0.5](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.0.5) (2019-06-27)
+
+#### Add
+* 预览快速选择界面文字颜色支持自定义; 
+* 编辑界面按钮增大;
+
+### Fix
+* 解决录制视频超过10s没有声音的bug.[#381](https://github.com/longitachi/ZLPhotoBrowser/issues/381)
+
+---
+
+
+## [3.0.4](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.0.4) (2019-05-19)
+
+#### Add
+* 添加视频选择最大最小个数限制;.
+
+### Fix
+* 解决网络gif图片无法播放的bug.[#372](https://github.com/longitachi/ZLPhotoBrowser/pull/372)
+* fix已知bug.[#371](https://github.com/longitachi/ZLPhotoBrowser/issues/371)
+
+---
+
+
+## [3.0.3](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.0.3) (2019-05-09)
+
+#### Add
+* 依赖库SDWebImage升级为5.0.2以上; 
+* 支持直接调用相机;
+
+### Fix
+* 解决图片浏览器关闭时取消所有sd图片请求的bug.[#366](https://github.com/longitachi/ZLPhotoBrowser/issues/366)
+
+---
+
+
+## [3.0.1](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.0.1) (2019-04-08)
+
+#### Add
+* 压缩bundle内图片;
+* 支持直接选择iCloud照片，并添加解析图片超时时间属性;
+
+---
+
+## [3.0.0](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/3.0.0) (2019-02-20)
+
+#### Add
+* 支持carthage集成;
+* 删除滤镜功能;
+
+---
+
+## [2.7.8](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/2.7.8) (2019-02-20)
+
+#### Add
+* 添加iCloud图片加载进度条;
+* 支持iCloud视频播放;
+* 优化部分体验;
+
+---
+
+## [2.7.6](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/2.7.6) (2018-11-29)
+
+#### Add
+* 预览大图界面支持precent情况下的下拉返回;
+
+---
+
+## [2.7.5](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/2.7.5) (2018-11-07)
+
+#### Add
+* 编辑图片支持自定义工具类型.
+
+#### Fix
+* 视频加水印可能报错.[#314](https://github.com/longitachi/ZLPhotoBrowser/issues/314)
+* 查看大图界面选择照片后，下拉返回上个界面未刷新选中状态.[#318](https://github.com/longitachi/ZLPhotoBrowser/issues/318)
+
+---
+
 ## [2.7.4](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/2.7.4) (2018-08-16)
 
 #### Add
